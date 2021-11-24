@@ -1,3 +1,7 @@
+import os, sys
+sys.path.append(r"F:/大学/MTFwiki/gym-traffic")
+sys.path.append(r"F:/大学/MTFwiki")
+sys.path.append(r"F:/大学/MTFwiki/gym-traffic/examples")
 from gym_traffic.runners import SimpleRunner
 import gym
 from gym_traffic.runners.agent_runner import test

@@ -1,7 +1,10 @@
 # import os
 # os.environ["THEANO_FLAGS"] = "mode=FAST_COMPILE,device=cpu,floatX=float32"
-
-
+import os, sys
+sys.path.append(r"F:/大学/MTFwiki/gym-traffic")
+sys.path.append(r"F:/大学/MTFwiki")
+sys.path.append(r"F:/大学/MTFwiki/gym-traffic/examples")
+sys.path.append(r'F:\\大学\\MTFwiki\\gym\\gym')
 from gym_traffic.agents import DQN, EpsilonExplorer
 from gym_traffic.runners import SimpleRunner
 import gym
